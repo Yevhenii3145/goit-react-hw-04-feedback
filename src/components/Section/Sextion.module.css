@@ -1,0 +1,12 @@
+.boxApp {
+    max-width: 1200px;
+    margin: 0 auto;
+    outline: 2px solid red;
+    position: relative;
+}
+.titleApp {
+    color: green;
+    text-align: center;
+    padding-top: 20px;
+
+}

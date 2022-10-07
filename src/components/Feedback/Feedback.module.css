@@ -1,0 +1,33 @@
+.buttonsBox {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+}
+.feedbackButton {
+    margin-left: 40px;
+    margin-right: 40px;
+    width:  80px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid blue;
+    border-radius: 4px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.feedbackButton:first-child {
+    background-color: gold;
+    color:blue;
+    
+}
+.feedbackButton:last-child {
+    background-color: brown;
+}
+.feedbackButton:nth-child(2) {
+    color: green;
+}
+.feedbackButton:hover,
+.feedbackButton:focus {
+    background-color: aqua;
+    scale: 1.2;
+}

@@ -11,9 +11,8 @@ export default function App() {
     const [bad, setBad] = useState(0);
     const keys = ["good", "neutral", "bad"];
 
-    const makeFeedback = (event) => {
-        const { name } = event.target;
-        switch (name) {
+    const makeFeedback = (option) => {
+        switch (option) {
             case "good":
                 return setGood((prev) => prev + 1);
             case "neutral":
